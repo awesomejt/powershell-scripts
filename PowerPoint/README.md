@@ -36,7 +36,7 @@ Parameters:
 
 * __InputFile__: Relative or Absolute path to PowerPoint presentation to be exported
 * __OutputFolder__: Relative or Absolute path to export. Default is especial "Exports" directory.
-* __OutputSubFolder__: Sub-folder name for Output. Default is "Images". Default export location would be the "Exports/Images" folder within the current directory.
+* __OutputSubFolder__: Sub-folder name for Output. Default is left empty. Final export directory would be _OutputFolder_ \ *OutputSubFodler*.
 * __OutputType__: Image type for export. Valid options: JPG or PNG. Default is PNG.
 * __OutputSize__: Image resolution size for export. Valid options: HD, QHD, or 4K. Default is HD.
 
