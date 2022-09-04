@@ -7,6 +7,7 @@ This script will export all the slides within the specified PowerPoint deck into
 Requirements:
 
 * Recent version of MS PowerPoint (365 or v2019+) on Windows 10
+    * Tested on Windows 10 with Powerpoint 365 / v2019
 * PowerPoint Deck ready for export in 16:9 aspect ratio
 * PowerShell environment
 
@@ -16,7 +17,7 @@ First load/run the script file:
 
 ```powershell
 # Note the space between the first period and the second one
-. .\path\to\Export-Powerpoint.ps1
+. .\path\to\Export-PowerPoint.ps1
 ```
 
 Call the Export-Deck function:
